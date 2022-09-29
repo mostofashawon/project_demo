@@ -26,8 +26,8 @@ class DetailScreen extends StatelessWidget {
               child: FadeInImage(
                 fit: BoxFit.fill,
                 image: NetworkImage(
-                    'assets/images/loading.png'
-                    // controller.data.value.data![0].imagePath.toString()
+
+                    controller.data.value.data![0].imagePath.toString()
                 ),
                 placeholder: AssetImage(
                     'assets/images/loading.png'

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:project/controller/signup_controller.dart';
+import 'package:project/view/choose_screen.dart';
 import 'package:project/view/details_view.dart';
 import 'package:project/widget/customText.dart';
 import 'package:get/get.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:  DetailScreen(),
+      home:  ChooseScreen(),
     );
   }
 }
